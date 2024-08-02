@@ -10,3 +10,5 @@ Besides the GeoLiteCity database you will also be needing the Wireshark applicat
 With Wireshark installed it’s time to create our input data which will consist of a captured pcap file. The file will consist of all network traffic going to and from our device in the period we have the capture function activated.
 
 To initialize a capture open wireshark and select a interface which has traffic going through it. e.g
+![image](https://github.com/user-attachments/assets/ad017fe0-ecc0-4c7a-88bb-0c42f2c8b177)
+
