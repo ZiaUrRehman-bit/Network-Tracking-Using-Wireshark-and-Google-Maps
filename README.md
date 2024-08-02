@@ -11,10 +11,13 @@ With Wireshark installed it’s time to create our input data which will consist
 
 To initialize a capture open wireshark and select a interface which has traffic going through it. e.g
 ![image](https://github.com/user-attachments/assets/ad017fe0-ecc0-4c7a-88bb-0c42f2c8b177)
+
 When selecting a interface, Wireshark automatically starts a new capture, which is why you immediately gets prompted with network traffic. To stop the capture and save the data you will have to do the following:
 ![image](https://github.com/user-attachments/assets/89e8a48b-2a6b-4eb6-b593-d2ecb928d879)
+
 Once the capture has been stopped you need to export the captured data in pcap format, this can be done by clicking File -> Export Specified Packets.. and then selecting the following format:
 ![image](https://github.com/user-attachments/assets/bb6accb4-a96c-4cc8-85bd-f7a32c3df8d7)
+
 With the captured data saved in the correct format, you’re ready to move into the Python Implementation.
 
 
